@@ -1,0 +1,65 @@
+Pseudocode Challenge
+
+1. NEWTON SECOND LAW
+
+ PSEUDOCODE:
+ 1. STORE mass with any value
+ 2. STORE acceleration with any value
+ 3. STORE force null
+ 4. if acceleration equals to 0 then set force with 0 
+ 5. else calculate mass with acceleration
+ 6. set force with calculation result
+ 7. display force
+ 
+ 
+ 2.TAHUN KABISAT
+ 
+ ALGORITMA
+ 1. Masukkan (tahun)
+ 2. Jika sisa pembagian (tahun dibagi 4) tidak sama dengan 0, 
+ 3. maka 'bukan tahun kabisat'
+ 4. Jika sisa pembagian (tahun dibagi 100) tidak sama dengan 0,
+ 5. maka 'tahun kabisat'
+ 6. Jika sisa pembagian (tahun dibagi 400) tidak sama dengan 0,
+ 7. maka 'bukan tahun kabisat'
+ 8. jika tidak memenuhi kondisi diatas cetak tahun kabisat
+ 
+ PSEUDOCODE
+ 1. STORE YEAR
+ 2. if (year is not divisible by 4) then
+ 3. Display 'common year'
+ 4. else if (year is not divisible by 100) then (
+ 5. Display 'leap year'
+ 6. else if (year is not divisible by 400) then 
+ 7. Display 'common year'
+ 8. else Display 'leap year'
+ 
+ 
+ 3. LAUNDRY DAY
+ 
+ ALGORIMA
+ 1. masukkan pakaian
+ 2. jika jumlah pakaian kurang dari 20 mesin cuci tidak hidup
+ 3. dimasukkan baju ke mesin cuci dengan perulangan sampai 20
+ 4. mesin cuci hidup
+ 
+ PSEUDOCODE
+ 1. STORE PAKAIAN with any value
+ 2. STORE counter with 0
+ 3. while counter less than pakaian
+ 4. display OFF
+ 5. if counter greater than or equals to pakaian
+ 6. display ON
+ 
+ 
+ 4. PERIKSA KUKU
+ 
+ PSEUDOCODE
+ 1. STORE student with any value
+ 2. STORE counter with 0
+ 3. while counter < students
+ 4. if kuku panjang then 
+ 5. display 'punish student'
+ 6. else if kuku pendek then
+ 7. display 'appreciate student'
+ 8. display end program
